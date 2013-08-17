@@ -9,8 +9,15 @@ Requirement
 
 Usage
 ------
-	
+	Any form element can be bind using
+		```javascript 
+		$('any class or id or tag_name').track_field_change()
+		
+		```
 
+		Whichever form field you want to track change should be added .track_change class to it	
+	I have included the example in the demo folder, it show initially its submit button is disabled when 
+	any form field changes submit button become active, if its(any form fields) value change to initial its again make button disabled 
 
 
 
